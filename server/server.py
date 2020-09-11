@@ -24,11 +24,11 @@ class ExampleHandler:
         timeStamp = time.time()
         return str(timeStamp)
 
-    # print something to string, wait 10 secs, than print something again
+    # print something to string, wait five secs, than print something again
     def asynchronousJob(self):
-        print('Assume that this work takes 10 seconds')
-        time.sleep(10)
-        print('Job finished, but client didn\'t wait for 10 seconds')
+        print('Assume that this work takes five seconds')
+        time.sleep(5)
+        print('Job finished, but client didn\'t wait for five seconds')
 
 
 # set handler to our implementation
