@@ -1,5 +1,5 @@
 namespace py example
-namespace go example
+namespace cpp example
 
 service example{
     // return current time stamp
